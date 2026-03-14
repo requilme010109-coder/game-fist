@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(OIP\ \(12\).webp);
+    background-size : cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: greenyellow;
+    height: 80vh;
+    font-size: 1.5em;
+}
+
+h1 {
+   text-align: center; 
+   margin-top: 100px;
+   font-family: "Press Start 2P", system-ui;
+   
+}
+
+p {
+      text-align: center;
+      font-family: "Josefin Sans", sans-serif;
+      padding: 10px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+#menu-screen {
+   margin-top: 100px;   
+   justify-content: center;
+}
+
+
+button {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 80px;
+   background: #80c5e0;
+background: linear-gradient(90deg, rgba(128, 197, 224, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+.btn-class {
+    padding: 40px;
+}
+
+#game-screen {
+    text-align: center;
+    padding: 5px;
+}
+
+.question-box {
+ padding: 50px;
+ font-size: 1.2em;
+}
+
+#game-out {
+    text-align: center;
+}
+
+#game-out h1 {
+    padding: 10px;
+}
+
+.score-board{
+    margin-top: 50px;
+    color: orangered;
+    font-size: 2em;
+    font-family: "Press Start 2P", system-ui;
+     font-weight: bold;
+}
+
+.question-box {
+    color: greenyellow;
+    padding: 50px;
+}
+
+.options-grid{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 0.5em;
+}
+
+#pesan {
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+
