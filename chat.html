@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chat.css">
+    <title>SanBot</title>
+</head>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<body>
+    <div id="head"  class="intro animate__animated animate__bounceInDown">
+        <h1>Selamat Datang di SanBot</h1>
+        <h3>Luangkan keluh kesah anda kami siap membantu</h3>
+    </div>
+       
+    <div class="container animate__animated animate__bounce">
+        <p id="pertayaan"></p>
+        <div class="wraper">
+        <input id ="jawaban" type="text" placeholder="Massukan jawaban">
+        <button class="btn" onclick="botStart()">Send</button>
+        </div>
+    </div>
+    <div id="loaders"></div>
+    <script src="chat.js"></script>
+</body>
+</html>
